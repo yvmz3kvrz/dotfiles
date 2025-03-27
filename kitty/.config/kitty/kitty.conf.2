@@ -15,12 +15,12 @@ url_color #405adb
 url_style straight
 term xterm-256color
 # ########################## Непрозрачность терминала ##########################
-background_opacity 0.8
+background_opacity 1
 # ########################## Фон ##########################
-#background_image <path/to/background/image.png>
-#background_image_layout centered
+background_image ~/.config/kitty/background.png
+background_image_layout scaled
 # ########################## Размытие фона ##########################
-background_blur 1
+#background_blur 1
 
 
 # -------------------------------------------- Курсор --------------------------------------------
@@ -52,3 +52,7 @@ window_margin_width 3
 tab_bar_style powerline
 # ########################## Стиль таб-бара powerline ##########################
 tab_powerline_style slanted
+
+# -------------------------------------------- Дополнительно --------------------------------------------
+# ########################## Копирование при выделении ##########################
+copy_on_select yes
